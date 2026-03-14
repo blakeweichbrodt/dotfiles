@@ -104,13 +104,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 
-neofetch
-
-if eval "$(ssh-agent -s)" >/dev/null; then
-  print -P "%B%F{green}- SSH Agent started successfully.%b%f"
-  ssh-add -q
-else
-  print -P "%B%F{red}Error: SSH Agent coult not be initialized.%b%f"
-fi
-
-print ""
+fastfetch
