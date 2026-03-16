@@ -10,3 +10,6 @@
 	editor = nvim
 [submodule]
 	recurse = true
+[pull]
+	ff = only
+  rebase = true
