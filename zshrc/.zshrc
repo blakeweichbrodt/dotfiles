@@ -320,3 +320,7 @@ if [[ -n "$TMUX" && "$ZSH_TMUX_AUTOREFRESH" == "true" ]] && tmux ls >/dev/null 2
   autoload -U add-zsh-hook
   add-zsh-hook preexec _zsh_tmux_plugin_preexec
 fi
+
+# Source Tmux
+tmux source-file ~/.tmux.conf
+
