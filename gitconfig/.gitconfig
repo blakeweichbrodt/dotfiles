@@ -13,3 +13,5 @@
 [pull]
 	ff = only
   rebase = true
+[credential]
+	helper = osxkeychain
